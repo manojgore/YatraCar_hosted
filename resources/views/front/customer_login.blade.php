@@ -40,7 +40,7 @@
 							<div class="form-group">
 								<div class="g-recaptcha" data-sitekey="{{ $g_setting->google_recaptcha_site_key }}"></div>
 							</div>
-							@endif
+							@endif 
 							<button type="submit" class="btn btn-primary">{{ LOGIN }}</button>
 							<a href="{{ route('customer_forget_password') }}" class="link">{{ FORGET_PASSWORD }}</a>
 							<div class="new-user">
