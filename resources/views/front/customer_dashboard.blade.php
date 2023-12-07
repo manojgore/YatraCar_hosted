@@ -56,7 +56,7 @@
 										</td>
 									</tr>
 									<tr>
-										<td>{{ PACKAGE_END_DATE }}</td>
+										<td>{{ PACKAGE_END_DATE }}</td> 
 										<td>
 											@php
 											$good_format = date('d F, Y', strtotime($detail->package_end_date));
