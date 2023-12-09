@@ -7,9 +7,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h1>{{ $page_home_items->search_heading }}</h1>
+				<h1>{{$page_home_items->search_heading}}</h1>
 				<p>
-					{{ $page_home_items->search_text }}
+					{{$page_home_items->search_text}}
 				</p>
 				<div class="box">
 					<form action="{{ url('search-listing') }}" method="POST">
