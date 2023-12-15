@@ -60,86 +60,86 @@ Route::group(['middleware' => ['XSS']], function () {
 /* --------------------------------------- */
 /* Front End */
 /* --------------------------------------- */
-// Route::get('/', [HomeController::class,'index']);
+Route::get('/', [HomeController::class,'index']);
 
-// Route::post('currency', [CurrencyControllerForFront::class,'index'])
-//     ->name('front_currency');
+Route::post('currency', [CurrencyControllerForFront::class,'index'])
+    ->name('front_currency');
 
-// Route::get('about', [AboutController::class,'index'])
-//     ->name('front_about');
+Route::get('about', [AboutController::class,'index'])
+    ->name('front_about');
 
-// Route::get('pricing', [PricingController::class,'index'])
-//     ->name('front_pricing');
+Route::get('pricing', [PricingController::class,'index'])
+    ->name('front_pricing');
 
-// Route::get('blog', [BlogControllerForFront::class,'index'])
-//     ->name('front_blogs');
+Route::get('blog', [BlogControllerForFront::class,'index'])
+    ->name('front_blogs');
 
-// Route::get('post/{slug}', [BlogControllerForFront::class,'detail'])
-//     ->name('front_post');
+Route::get('post/{slug}', [BlogControllerForFront::class,'detail'])
+    ->name('front_post');
 
-// Route::post('post/comment', [BlogControllerForFront::class,'comment'])
-//     ->name('front_comment');
+Route::post('post/comment', [BlogControllerForFront::class,'comment'])
+    ->name('front_comment');
 
-// Route::get('category/{slug}', [CategoryControllerForFront::class,'detail'])
-//     ->name('front_category');
+Route::get('category/{slug}', [CategoryControllerForFront::class,'detail'])
+    ->name('front_category');
 
-// Route::post('search', [SearchController::class,'index']);
+Route::post('search', [SearchController::class,'index']);
 
-// Route::get('search', function() {abort(404);});
+Route::get('search', function() {abort(404);});
 
-// Route::get('faq', [FaqControllerForFront::class,'index'])
-//     ->name('front_faq');
+Route::get('faq', [FaqControllerForFront::class,'index'])
+    ->name('front_faq');
 
-// Route::get('page/{slug}', [PageController::class,'detail'])
-//     ->name('front_dynamic_page');
+Route::get('page/{slug}', [PageController::class,'detail'])
+    ->name('front_dynamic_page');
 
-// Route::get('contact', [ContactController::class,'index'])
-//     ->name('front_contact');
+Route::get('contact', [ContactController::class,'index'])
+    ->name('front_contact');
 
-// Route::post('contact/store', [ContactController::class,'send_email'])
-//     ->name('front_contact_form');
+Route::post('contact/store', [ContactController::class,'send_email'])
+    ->name('front_contact_form');
 
-// Route::get('terms-and-conditions', [TermController::class,'index'])
-//     ->name('front_terms_and_conditions');
+Route::get('terms-and-conditions', [TermController::class,'index'])
+    ->name('front_terms_and_conditions');
 
-// Route::get('privacy-policy', [PrivacyController::class,'index'])
-//     ->name('front_privacy_policy');
+Route::get('privacy-policy', [PrivacyController::class,'index'])
+    ->name('front_privacy_policy');
 
-// Route::get('listing/{slug}', [ListingControllerForFront::class,'detail'])
-//     ->name('front_listing_detail');
+Route::get('listing/{slug}', [ListingControllerForFront::class,'detail'])
+    ->name('front_listing_detail');
 
-// Route::post('listing/listing/send-message', [ListingControllerForFront::class,'send_message'])
-//     ->name('front_listing_detail_send_message');
+Route::post('listing/listing/send-message', [ListingControllerForFront::class,'send_message'])
+    ->name('front_listing_detail_send_message');
 
-// Route::post('listing/listing/report-listing', [ListingControllerForFront::class,'report_listing'])
-//     ->name('front_listing_detail_report_listing');
+Route::post('listing/listing/report-listing', [ListingControllerForFront::class,'report_listing'])
+    ->name('front_listing_detail_report_listing');
 
-// Route::get('listing/brand/all', [ListingControllerForFront::class,'brand_all'])
-//     ->name('front_listing_brand_all');
+Route::get('listing/brand/all', [ListingControllerForFront::class,'brand_all'])
+    ->name('front_listing_brand_all');
 
-// Route::get('listing/brand/{slug}', [ListingControllerForFront::class,'brand_detail'])
-//     ->name('front_listing_brand_detail');
+Route::get('listing/brand/{slug}', [ListingControllerForFront::class,'brand_detail'])
+    ->name('front_listing_brand_detail');
 
-// Route::get('listing/location/all', [ListingControllerForFront::class,'location_all'])
-//     ->name('front_listing_location_all');
+Route::get('listing/location/all', [ListingControllerForFront::class,'location_all'])
+    ->name('front_listing_location_all');
 
-// Route::get('listing/location/{slug}', [ListingControllerForFront::class,'location_detail'])
-//     ->name('front_listing_location_detail');
+Route::get('listing/location/{slug}', [ListingControllerForFront::class,'location_detail'])
+    ->name('front_listing_location_detail');
 
-// Route::get('agent/{type}/{id}', [ListingControllerForFront::class,'agent_detail'])
-//     ->name('front_listing_agent_detail');
+Route::get('agent/{type}/{id}', [ListingControllerForFront::class,'agent_detail'])
+    ->name('front_listing_agent_detail');
 
-// Route::get('listing-result', [ListingControllerForFront::class,'listing_result'])
-//     ->name('front_listing_result');
+Route::get('listing-result', [ListingControllerForFront::class,'listing_result'])
+    ->name('front_listing_result');
 
-// Route::post('search-listing', [ListingControllerForFront::class,'search_listing'])
-//     ->name('search_front_listing_result');
+Route::post('search-listing', [ListingControllerForFront::class,'search_listing'])
+    ->name('search_front_listing_result');
 
-// Route::get('search-listing-result', [ListingControllerForFront::class,'search_listing_result'])
-//     ->name('search-front_listing_result');
+Route::get('search-listing-result', [ListingControllerForFront::class,'search_listing_result'])
+    ->name('search-front_listing_result');
 
-// Route::get('customer/wishlist/add/{id}', [ListingControllerForFront::class,'wishlist_add'])
-//     ->name('front_add_wishlist');
+Route::get('customer/wishlist/add/{id}', [ListingControllerForFront::class,'wishlist_add'])
+    ->name('front_add_wishlist');
 
 
 
