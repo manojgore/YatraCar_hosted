@@ -99,7 +99,7 @@ Route::get('contact', [ContactController::class,'index'])
 Route::post('contact/store', [ContactController::class,'send_email'])
     ->name('front_contact_form');
 
-Route::get('terms-and-conditions', [TermController::class,'index'])
+Route::get('terms-and-conditions', [TermController::class,'index']) 
     ->name('front_terms_and_conditions');
 
 Route::get('privacy-policy', [PrivacyController::class,'index'])
