@@ -118,7 +118,7 @@ class ListingBrandController extends Controller
                 Rule::unique('listing_brands')->ignore($id),
             ]
         ],[
-            'listing_brand_name.required' => ERR_NAME_REQUIRED,
+            'listing_brand_name.required' => ERR_NAME_REQUIRED, 
             'listing_brand_name.unique' => ERR_NAME_EXIST,
             'listing_brand_slug.unique' => ERR_SLUG_UNIQUE,
         ]);
