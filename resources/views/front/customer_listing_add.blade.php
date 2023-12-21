@@ -489,7 +489,7 @@
 						<input type="text" name="additional_feature_value[]" class="form-control" placeholder="{{ VALUE }}">
 					</div>
 				</div>
-				<div class="col-md-1">
+				<div class="col-md-1"> 
 					<span class="btn btn-danger remove_additional_feature_more"><i class="fas fa-minus"></i></span>
 				</div>
 			</div>

@@ -65,7 +65,7 @@
 										</td>
 									</tr>
 									<tr>
-										<td>{{ LISTING_ALLOWED }}</td>
+										<td>{{ LISTING_ALLOWED }}</td> 
 										<td>
 											{{ $detail->rPackage->total_listings }}
 										</td>
