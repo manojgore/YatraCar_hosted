@@ -566,7 +566,7 @@ $('.amenity_check').on('click',function() {
     	var total = $("input[name='amenity[]']:checked").length;
     	if(total > {{ $total_amenities }})
     	{
-    		$(this).prop("checked", false);
+    		$(this).prop("checked", false); 
     		toastr.error('{{ MAX_ALLOWED_AMENITIES_FOR_YOU }} {{ $total_amenities }}')
     	}
   	}
