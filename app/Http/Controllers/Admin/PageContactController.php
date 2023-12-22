@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Validation\Rule;
 use DB;
 use Auth;
-
+ 
 class PageContactController extends Controller
 {
     public function __construct()
