@@ -21,7 +21,7 @@
                         <button type="submit" class="btn btn-success">{{ UPDATE }}</button>
                     </div>
                 </div>
-            </form>        
+            </form>         
         </div>
     </div>
 
