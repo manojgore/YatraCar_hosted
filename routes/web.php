@@ -55,7 +55,7 @@ use Illuminate\Support\Facades\Route;
 
 
 
-Route::group(['middleware' => ['XSS']], function () {
+Route::group(['middleware' => ['XSS']], function () { 
 
 /* --------------------------------------- */
 /* Front End */
