@@ -11,7 +11,7 @@
 			<li class="breadcrumb-item active">{{ $blog->name }}</li>
 		</ol>
 	</nav>
-</div>
+</div> 
 
 <div class="page-content">
 	<div class="container">

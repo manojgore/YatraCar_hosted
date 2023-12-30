@@ -42,7 +42,7 @@
                                 @endif
 
                                 @if($g_setting->stripe_status == 'Show')
-                                <tr>
+                                <tr> 
                                     <td>{{ PAY_WITH_STRIPE }}</td>
                                     <td>
                                         @php

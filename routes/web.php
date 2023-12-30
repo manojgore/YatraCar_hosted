@@ -51,7 +51,7 @@ use App\Http\Controllers\Front\CustomerAuthController;
 use App\Http\Controllers\Front\CustomerController as CustomerControllerForFront;
 use App\Http\Controllers\Front\ListingController as ListingControllerForFront;
 
-use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Route; 
 
 
 

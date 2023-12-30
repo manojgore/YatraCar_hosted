@@ -16,7 +16,7 @@
                         </div>
                         <div class="form-group">
                             <label for="">{{ CHANGE_PHOTO }} *</label>
-                            <div><input type="file" name="photo"></div>
+                            <div><input type="file" name="photo"></div> 
                         </div>
                         <button type="submit" class="btn btn-success">{{ UPDATE }}</button>
                     </div>
