@@ -282,7 +282,7 @@ Route::get('customer/listing/delete-video/{id}', [CustomerControllerForFront::cl
     ->name('customer_listing_delete_video');
 
 Route::get('customer/listing/delete-additional-feature/{id}', [CustomerControllerForFront::class,'listing_delete_additional_feature'])
-    ->name('customer_listing_delete_additional_feature');
+    ->name('customer_listing_delete_additional_feature'); 
 
 Route::post('customer/review', [CustomerControllerForFront::class,'submit_review'])
     ->name('customer_review');
