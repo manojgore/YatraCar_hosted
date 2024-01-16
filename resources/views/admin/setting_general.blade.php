@@ -8,7 +8,7 @@
         <input type="hidden" name="current_favicon" value="{{ $setting->favicon }}">
 
         <div class="card shadow mb-4 t-left">
-            <div class="card-body">
+            <div class="card-body"> 
                 <div class="row">
                     <div class="col-md-3 col-sm-12">
                         <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
