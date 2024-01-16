@@ -47,7 +47,7 @@ use App\Http\Controllers\Front\HomeController;
 use App\Http\Controllers\Front\PageController;
 use App\Http\Controllers\Front\PrivacyController;
 use App\Http\Controllers\Front\TermController;
-use App\Http\Controllers\Front\CustomerAuthController;
+use App\Http\Controllers\Front\CustomerAuthController; 
 use App\Http\Controllers\Front\CustomerController as CustomerControllerForFront;
 use App\Http\Controllers\Front\ListingController as ListingControllerForFront;
 
