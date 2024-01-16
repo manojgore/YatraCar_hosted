@@ -63,8 +63,7 @@
                                                 data-description=""
                                                 data-image="{{ asset('public/images/stripe_icon.png') }}"
                                                 data-currency="{{ session()->get('currency_name') }}"
-                                                data-email="{{ $customer_email }}"
-                                            >
+                                                data-email="{{ $customer_email }}" >
                                             </script>
                                         </form>
                                     </td>
