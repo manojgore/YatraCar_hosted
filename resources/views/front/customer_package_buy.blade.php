@@ -69,9 +69,7 @@
                                     </td>
                                 </tr>
                                 @endif
-
-
-
+                                
                                 @if($g_setting->razorpay_status == 'Show')
                                 <tr>
                                     <td>{{ PAY_WITH_RAZORPAY }}</td>
