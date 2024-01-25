@@ -52,7 +52,6 @@
                                             $cents = $final_price*100;
                                             $customer_email = session()->get('email');
                                         @endphp
-
                                         <form action="{{ route('customer_payment_stripe') }}" method="post">
                                             @csrf
                                             <script

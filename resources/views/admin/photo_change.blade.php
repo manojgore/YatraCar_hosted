@@ -10,7 +10,7 @@
                     <div class="card-body">
                         <div class="form-group">
                             <label for="">{{ EXISTING_PHOTO }} *</label>
-                            <div>
+                            <div> 
                                 <img src="{{ asset('uploads/user_photos/'.$admin_data->photo) }}" alt="" class="w_150">
                             </div>
                         </div>
@@ -25,5 +25,4 @@
             </form>         
         </div>
     </div>
-
 @endsection
