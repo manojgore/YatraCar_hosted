@@ -28,7 +28,7 @@ class User extends Authenticatable
         'status'
     ];
 
-    public function rPurchasePackage()
+    public function rPurchasePackage() 
     {
         return $this->hasMany(PackagePurchase::class, 'user_id', 'id');
     }
