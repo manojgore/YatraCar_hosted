@@ -84,7 +84,7 @@ Route::post('post/comment', [BlogControllerForFront::class,'comment'])
 Route::get('category/{slug}', [CategoryControllerForFront::class,'detail'])
     ->name('front_category'); 
 
-//Route::post('search', [SearchController::class,'index']); 
+Route::post('search', [SearchController::class,'index']); 
 
 Route::get('search', function() {abort(404);});
 
