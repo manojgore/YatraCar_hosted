@@ -8,7 +8,7 @@
 	<nav>
 		<ol class="breadcrumb justify-content-center">
 			<li class="breadcrumb-item"><a href="{{ url('/') }}">{{ HOME }}</a></li>
-			<li class="breadcrumb-item active">{{ LOGIN }}</li>
+			<li class="breadcrumb-item active">{{ LOGIN }}</li> 
 		</ol>
 	</nav>
 </div>

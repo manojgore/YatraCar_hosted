@@ -503,7 +503,6 @@ function countElements(class_name) {
     var numItems = $('.'+class_name).length
     return numItems;
 }
-
 // Social Item Check
 $(document).on("click",".add_social_more",function() {
 	if(countElements('social_for_count') > {{ $total_social_items }}) {

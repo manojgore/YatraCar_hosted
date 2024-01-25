@@ -5,7 +5,7 @@ use App\Models\PageListingItem;
 use Illuminate\Http\Request;
 use Illuminate\Validation\Rule;
 use DB;
-use Auth;
+use Auth; 
 
 class PageListingController extends Controller
 {

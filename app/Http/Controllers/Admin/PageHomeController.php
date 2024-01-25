@@ -11,7 +11,7 @@ class PageHomeController extends Controller
 {
     public function __construct() {
         $this->middleware('auth.admin:admin');
-    }
+    } 
 
     public function edit() {
         $page_home = PageHomeItem::where('id',1)->first();
