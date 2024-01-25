@@ -82,7 +82,7 @@ Route::post('post/comment', [BlogControllerForFront::class,'comment'])
     ->name('front_comment');
 
 Route::get('category/{slug}', [CategoryControllerForFront::class,'detail'])
-    ->name('front_category');
+    ->name('front_category'); 
 
 //Route::post('search', [SearchController::class,'index']); 
 
