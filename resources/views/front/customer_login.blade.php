@@ -12,8 +12,6 @@
 		</ol>
 	</nav>
 </div>
-
-
 <div class="page-content pt_50 pb_60">
 	<div class="container">
 		<div class="row cart">

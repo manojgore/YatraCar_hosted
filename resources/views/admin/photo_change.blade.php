@@ -13,8 +13,7 @@
                             <div> 
                                 <img src="{{ asset('uploads/user_photos/'.$admin_data->photo) }}" alt="" class="w_150">
                             </div>
-                        </div>
-                        
+                        </div>                       
                         <div class="form-group">
                             <label for="">{{ CHANGE_PHOTO }} *</label>
                             <div><input type="file" name="photo"></div> 

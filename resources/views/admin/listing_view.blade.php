@@ -76,7 +76,6 @@
                                 <a href="{{ route('admin_listing_edit',$row->id) }}" class="btn btn-warning btn-sm"><i class="fas fa-edit"></i></a>
                             </td>
                         </tr>
-
 <!-- Modal -->
 <div class="modal fade modal_listing_detail" id="detail_info{{ $row->id }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
