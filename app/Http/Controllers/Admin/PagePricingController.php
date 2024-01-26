@@ -7,7 +7,7 @@ use Illuminate\Validation\Rule;
 use DB;
 use Auth;
 
-class PagePricingController extends Controller
+class PagePricingController extends Controller 
 {
     public function __construct()
     {

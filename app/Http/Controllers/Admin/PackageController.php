@@ -86,7 +86,7 @@ class PackageController extends Controller
             'total_additional_features' => 'required',
             'package_order' => 'numeric|min:0|max:32767'
         ],[
-            'package_name.required' => ERR_NAME_REQUIRED,
+            'package_name.required' => ERR_NAME_REQUIRED, 
             'package_price.required' => ERR_PRICE_REQUIRED,
             'valid_days.required' => ERR_VALID_DAYS_REQUIRED,
             'total_listings.required' => ERR_TOTAL_LISTING_REQUIRED,
@@ -108,7 +108,6 @@ class PackageController extends Controller
         if(env('PROJECT_MODE') == 0) {
             return redirect()->back()->with('error', env('PROJECT_NOTIFICATION'));
         }
-        
         // Can not delete a package if it is used in other table
         $tot = PackagePurchase::where('package_id',$id)->count();
         if($tot) {
