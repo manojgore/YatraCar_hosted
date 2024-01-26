@@ -24,7 +24,6 @@ class ListingPageReport extends Mailable
         $this->subject = $subject;
         $this->message = $message;
     }
-
     /**
      * Build the message.
      *
