@@ -509,7 +509,7 @@ $(document).on("click",".add_social_more",function() {
 		toastr.error('{{ MAX_ALLOWED_SOCIAL_ITEMS_FOR_YOU }} {{ $total_social_items }}')
 	} else {
 		var add_social = $("#add_social").html();
-  		$(this).closest(".social_item").append(add_social);
+  		$(this).closest(".social_item").append(add_social); 
 	}
 });
 $(document).on("click",".remove_social_more",function(event){
