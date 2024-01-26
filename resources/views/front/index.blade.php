@@ -43,8 +43,6 @@
 		</div>
 	</div>
 </div>
-
-
 @if($adv_home_data->above_brand_status == 'Show')
 <div class="ad-section">
 	<div class="container">
@@ -71,8 +69,6 @@
 	</div>
 </div>
 @endif
-
-
 @if($page_home_items->brand_status == 'Show')
 <div class="popular-city">
 	<div class="container">
