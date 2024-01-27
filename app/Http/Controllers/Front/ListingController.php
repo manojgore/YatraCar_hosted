@@ -222,7 +222,7 @@ class ListingController extends Controller
                 }
             })->with('user')->orderBy('id','desc');
         }else{
-            $listings = Listing::with('user')->orderBy('id','desc');
+            $listings = Listing::with('user')->orderBy('id','desc'); 
         }
 
         if($request->location){
