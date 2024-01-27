@@ -7,7 +7,6 @@
             <h1 class="h3 mb-3 text-gray-800">{{ DASHBOARD }}</h1>
         </div>
     </div>
-
     <!-- Box Start -->
     <div class="row dashboard-page">
 
