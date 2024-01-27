@@ -61,7 +61,7 @@ Route::group(['middleware' => ['XSS']], function () {
 /* Front End */
 /* --------------------------------------- */
 
-//Route::get('/', [HomeController::class,'index']); 
+Route::get('/', [HomeController::class,'index']); 
 
 Route::post('currency', [CurrencyControllerForFront::class,'index'])
      ->name('front_currency');
