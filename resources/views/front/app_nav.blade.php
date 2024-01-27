@@ -35,11 +35,7 @@ $page_listing_brand_item = \App\Models\PageListingBrandItem::where('id',1)->firs
 							<a href="{{ url('/') }}" class="nav-link">{{ MENU_HOME }}</a>
 						</li>
 
-                        @if($page_listing_item->status == 'Show')
-						<li class="nav-item">
-							<a href="{{ url('listing-result') }}" class="nav-link">{{ MENU_LISTING }}</a>
-						</li>
-                        @endif
+                
 
                         <!-- @if($page_pricing_item->status == 'Show')
 						<li class="nav-item">
