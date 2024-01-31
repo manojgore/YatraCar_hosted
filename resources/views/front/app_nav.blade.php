@@ -34,9 +34,7 @@ $page_listing_brand_item = \App\Models\PageListingBrandItem::where('id',1)->firs
 						<li class="nav-item">
 							<a href="{{ url('/') }}" class="nav-link">{{ MENU_HOME }}</a>
 						</li>
-
-                
-
+						
                         <!-- @if($page_pricing_item->status == 'Show')
 						<li class="nav-item">
 							<a href="{{ route('front_pricing') }}" class="nav-link">{{ MENU_PRICING }}</a>
@@ -58,7 +56,7 @@ $page_listing_brand_item = \App\Models\PageListingBrandItem::where('id',1)->firs
 								<li class="nav-item">
 									<a href="{{ route('front_listing_location_all') }}" class="nav-link">{{ MENU_LOCATION }}</a>
 								</li>
-                                @endif
+                                @endif 
 
                                 @if($page_listing_brand_item->status == 'Show')
 								<li class="nav-item">
