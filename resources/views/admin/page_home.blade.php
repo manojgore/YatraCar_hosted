@@ -23,7 +23,7 @@
                             <a class="nav-link" id="p7_tab" data-toggle="pill" href="#p7" role="tab" aria-controls="p7" aria-selected="false">{{ TESTIMONIAL_SECTION }}</a>
                             <a class="nav-link" id="p5_tab" data-toggle="pill" href="#p5" role="tab" aria-controls="p5" aria-selected="false">{{ LOCATION_SECTION }}</a>
                         </div>
-                    </div>
+                    </div> 
                     <div class="col-md-9 col-sm-12">
                         <div class="tab-content" id="v-pills-tabContent">
 
