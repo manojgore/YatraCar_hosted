@@ -84,7 +84,7 @@ class PackageController extends Controller
             'total_videos' => 'required',
             'total_social_items' => 'required',
             'total_additional_features' => 'required',
-            'package_order' => 'numeric|min:0|max:32767'
+            'package_order' => 'numeric|min:0|max:32767' 
         ],[
             'package_name.required' => ERR_NAME_REQUIRED, 
             'package_price.required' => ERR_PRICE_REQUIRED,
@@ -115,7 +115,7 @@ class PackageController extends Controller
         }
 
         $package = Package::findOrFail($id);
-        $package->delete();
+        $package->delete(); 
         return Redirect()->back()->with('success', SUCCESS_ACTION);
     }
 }
