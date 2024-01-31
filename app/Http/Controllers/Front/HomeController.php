@@ -10,7 +10,7 @@ use App\Models\HomeAdvertisement;
 use App\Models\Testimonial;
 use DB;
 
-class HomeController extends Controller
+class HomeController extends Controller 
 {
     public function index()
     {
