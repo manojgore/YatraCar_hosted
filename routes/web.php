@@ -142,8 +142,6 @@ Route::get('search-listing-result', [ListingControllerForFront::class,'search_li
 Route::get('customer/wishlist/add/{id}', [ListingControllerForFront::class,'wishlist_add'])
     ->name('front_add_wishlist');
 
-
-
 /* --------------------------------------- */
 /* Customer Authentication */
 /* --------------------------------------- */

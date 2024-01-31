@@ -11,11 +11,12 @@ $symbol1 = $sess_arr->symbol;
 $value1 = $sess_arr->value;
 session()->put('currency_name',$name1);
 session()->put('currency_symbol',$symbol1);
-session()->put('currency_value',$value1);
+session()->put('currency_value',$value1); 
 @endphp
+
 @endif
 
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
    	<head>
 		<meta charset="utf-8">
