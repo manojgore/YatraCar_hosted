@@ -10,7 +10,7 @@
                 <h6 class="m-0 mt-2 font-weight-bold text-primary"></h6>
                 <div class="float-right d-inline">
                     <a href="{{ route('admin_listing_view') }}" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i> {{ VIEW_ALL }}</a>
-                </div>
+                </div> 
             </div>
             <div class="card-body">
                 <div class="row">
