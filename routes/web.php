@@ -64,7 +64,8 @@ Route::group(['middleware' => ['XSS']], function () {
 Route::get('/', [HomeController::class,'index']); 
 
 Route::post('currency', [CurrencyControllerForFront::class,'index'])
-     ->name('front_currency');
+     ->name('front_currency'); 
+     ->name('front_currency'); 
 
 Route::get('about', [AboutController::class,'index'])
     ->name('front_about');
