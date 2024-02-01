@@ -7,7 +7,7 @@ $currency_list = \App\Models\Currency::get();
 @php
 $sess_arr = \App\Models\Currency::where('is_default','Yes')->first();
 $name1 = $sess_arr->name;
-$symbol1 = $sess_arr->symbol;
+$symbol1 = $sess_arr->symbol; 
 $value1 = $sess_arr->value;
 session()->put('currency_name',$name1);
 session()->put('currency_symbol',$symbol1);
