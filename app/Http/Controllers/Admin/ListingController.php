@@ -87,7 +87,7 @@ class ListingController extends Controller
 
 
         // Amenity
-        if($request->amenity != '') {
+        if($request->amenity != '') { 
             $arr_amenity = array();
             foreach($request->amenity as $item) {
                 $arr_amenity[] = $item;
