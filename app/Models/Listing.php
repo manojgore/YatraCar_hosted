@@ -10,7 +10,7 @@ class Listing extends Model
         'listing_name',
         'listing_slug',
         'listing_description',
-        'listing_address',
+        'listing_address', 
         'listing_phone',
         'listing_email',
         'listing_website',
