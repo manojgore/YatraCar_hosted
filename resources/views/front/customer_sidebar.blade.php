@@ -10,5 +10,5 @@
 	<li><a href="{{ route('customer_update_password') }}" class="btn btn-md btn-block btn-dark">{{ EDIT_PASSWORD }}</a></li>
 	<li><a href="{{ route('customer_update_photo') }}" class="btn btn-md btn-block btn-dark">{{ EDIT_PHOTO }}</a></li>
 	<li><a href="{{ route('customer_update_banner') }}" class="btn btn-md btn-block btn-dark">{{ EDIT_BANNER }}</a></li>
-	<li><a href="{{ route('customer_logout') }}" class="btn btn-md btn-block btn-dark">{{ LOGOUT }}</a></li> 
+	<li><a href="{{ route('customer_logout') }}" class="btn btn-md btn-block btn-dark">{{ LOGOUT }}</a></li>  
 </ul>
