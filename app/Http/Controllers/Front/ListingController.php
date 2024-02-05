@@ -231,7 +231,7 @@ class ListingController extends Controller
         }
 
         if($request->brand){
-            $brand_arr = $request->brand;
+            $brand_arr = $request->brand; 
             $listings = $listings->whereIn('listing_brand_id', $brand_arr);
         }
 
@@ -265,7 +265,7 @@ class ListingController extends Controller
         $listing_brands = ListingBrand::get();
         $listing_locations = ListingLocation::get();
         $amenities = Amenity::get();
-
+ 
         // Breaking Urls
         $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
         $actual_link_len = strlen($actual_link);
