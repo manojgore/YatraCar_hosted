@@ -20,7 +20,7 @@
 				<div class="reg-login-form">
 					<div class="inner">
 
-						@php
+						@php 
 							$g_setting = \App\Models\GeneralSetting::where('id',1)->first();
 						@endphp
 
