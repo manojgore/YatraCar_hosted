@@ -184,7 +184,7 @@
     "STRIPE_SECRET_KEY": "Stripe Secret Key",
     "EDIT_GENERAL_SETTING": "Edit General Setting",
     "LOGO": "Logo",
-    "FAVICON": "Favicon",
+    "FAVICON": "Favicon", 
     "FOOTER": "Footer",
     "GOOGLE_RECAPTCHA": "Google Recaptcha", 
     "GOOGLE_ANALYTIC": "Google Analytic",
