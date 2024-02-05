@@ -6,7 +6,7 @@
         <div class="col-xl-12 col-md-12 mb-2">
             <h1 class="h3 mb-3 text-gray-800">{{ DASHBOARD }}</h1>
         </div>
-    </div>
+    </div> 
     <!-- Box Start -->
     <div class="row dashboard-page">
 
