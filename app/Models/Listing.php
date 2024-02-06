@@ -18,7 +18,7 @@ class Listing extends Model
         'listing_price',
         'listing_exterior_color',
         'listing_interior_color',
-        'listing_cylinder',
+        'listing_cylinder', 
         'listing_fuel_type', 
         'listing_transmission',
         'listing_engine_capacity',
