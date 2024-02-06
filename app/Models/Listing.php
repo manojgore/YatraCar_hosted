@@ -19,7 +19,7 @@ class Listing extends Model
         'listing_exterior_color',
         'listing_interior_color',
         'listing_cylinder',
-        'listing_fuel_type',
+        'listing_fuel_type', 
         'listing_transmission',
         'listing_engine_capacity',
         'listing_vin',
