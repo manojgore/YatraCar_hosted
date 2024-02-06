@@ -263,7 +263,7 @@ class ListingController extends Controller
         $g_setting = GeneralSetting::where('id', 1)->first();
         $listing_page_data = PageListingItem::where('id', 1)->first();
         $listing_brands = ListingBrand::get();
-        $listing_locations = ListingLocation::get();
+        $listing_locations = ListingLocation::get(); 
         $amenities = Amenity::get();
  
         // Breaking Urls
