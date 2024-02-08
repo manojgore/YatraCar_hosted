@@ -320,7 +320,7 @@ class ListingController extends Controller
         }
 
         $listings = $listings->paginate(20);
-        $listings = $listings->appends($request->all());
+        $listings = $listings->appends($request->all()); 
 
 
 
