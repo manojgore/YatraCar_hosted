@@ -22,7 +22,7 @@ class Listing extends Model
         'listing_fuel_type', 
         'listing_transmission',
         'listing_engine_capacity',
-        'listing_vin',
+        'listing_vin', 
         'listing_body',
         'listing_seat',
         'listing_wheel',
