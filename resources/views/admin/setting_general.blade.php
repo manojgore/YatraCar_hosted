@@ -42,7 +42,7 @@
                                     <div>
                                         <input type="file" name="logo">
                                     </div>
-                                </div> 
+                                </div>  
                                 <!-- // Tab Content -->
 
                             </div>
